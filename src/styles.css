@@ -1,0 +1,17 @@
+body, html, .app-container {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black !important; /* Force black background */
+    color: white; /* Black background */
+  }
+  
+
+
+
+
+  
+  

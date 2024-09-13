@@ -1,0 +1,149 @@
+.nft-marketplace {
+    color: #9C9BE1; /* Color for NFT Marketplace */
+  }
+  
+  .habitual {
+    color: #F6DE83; /* Color for Habitual */
+  }
+  
+  .modern-website {
+    color: #A21044; /* Color for Modern Website */
+  }
+  
+  .carousel-animation {
+    color: #F03943; /* Color for 3D Carousel Animation */
+  }
+  section {
+    text-align: center; /* Center-align text within the section */
+  }  
+  section {
+    padding: 10px; /* Reduce padding around the section */
+    text-align: center; /* Center-align h1 text */
+  }
+  
+  .projects-grid {
+    display: grid; /* Apply grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Create 2 columns */
+    gap: 10px; /* Space between project cards */
+    padding: 10px; /* Padding around the grid */
+  }
+  
+  .project-card {
+    background: none; /* No background for the project card */
+    border-radius: 8px;
+    overflow: hidden; /* Hide overflow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease; /* Smooth transition for the card */
+  }
+  
+  .project-card a {
+    text-decoration: none; /* Remove underline from the link */
+  }
+  
+  .project-image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    margin-bottom: 10px;
+  }
+  
+  .project-card h2 {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease, font-size 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect on the project card image */
+  .project-card:hover .project-image {
+    transform: scale(1.05); /* Scale the image up */
+  }
+  
+  /* Hover effect on the project card title */
+  .project-card:hover h2 {
+    font-size: 1.7rem; /* Increase text size */
+    transform: scale(1.1); /* Scale the text */
+  }
+  
+ 
+  
+  .project-image {
+    max-width: 100%; /* Ensure image fits within card */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between the image and the text */
+    background: none; /* Remove any background color */
+    border: none; /* Remove any borders */
+  }
+  
+  
+  
+  
+  
+  section h1 {
+    font-family: 'Poppins', sans-serif; /* Ensure Poppins font */
+    font-size: 2.5rem; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add space below the heading */
+    background: linear-gradient(90deg, #DBA6F0 0%, #A981FE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    animation: fadeInUp 1s ease-out; /* Apply the fadeInUp animation */
+  }
+
+  @media only screen and (max-width: 480px) {
+    
+  
+    /* Projects grid in 1 column on mobile */
+    .projects-grid {
+      grid-template-columns: 1fr; /* 1 column layout for mobile */
+    }
+  
+    /* Adjust header */
+    header {
+      height: auto; /* Allow header to adjust its height based on content */
+      padding: 20px; /* Add padding to the header */
+      text-align: center; /* Center text horizontally */
+    }
+  
+    .header-avatar-container {
+      flex-direction: column; /* Stack items vertically */
+      margin-top: 0; /* Remove top margin */
+      gap: 20px; /* Adjust gap between items */
+      padding: 10px; /* Adjust padding for mobile */
+    }
+  
+    .header-avatar-container img {
+      width: 100px; /* Adjust avatar size */
+      height: 100px; /* Maintain aspect ratio */
+      border-radius: 50%; /* Ensure avatar is circular */
+    }
+  
+    header h1 {
+      font-size: 2rem; /* Adjust font size for mobile */
+    }
+  
+    header p {
+      font-size: 1rem; /* Adjust font size for mobile */
+    }
+  
+    .header-image {
+      max-width: 90%;
+      padding-bottom: 20px;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .project-image {
+      width: 100%;
+      height: auto;
+    }
+  }
