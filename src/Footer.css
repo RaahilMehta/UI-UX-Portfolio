@@ -57,7 +57,7 @@ footer {
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 576px) {
     body, html {
       font-size: 14px;
     }
@@ -71,7 +71,13 @@ footer {
     .projects-grid {
       grid-template-columns: 1fr; /* 1 column layout for mobile */
     }
-  
+    
+    footer {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
     /* Adjust header */
     header {
       height: auto; /* Allow header to adjust its height based on content */
