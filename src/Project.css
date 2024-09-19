@@ -1,25 +1,26 @@
 .nft-marketplace {
-    color: #9C9BE1; /* Color for NFT Marketplace */
+    color: #9C9BE1; 
   }
   
   .habitual {
-    color: #F6DE83; /* Color for Habitual */
+    color: #F6DE83;
   }
   
   .modern-website {
-    color: #A21044; /* Color for Modern Website */
+    color: #A21044; 
   }
   
   .carousel-animation {
-    color: #F03943; /* Color for 3D Carousel Animation */
+    color: #F03943; 
   }
   section {
-    text-align: center; /* Center-align text within the section */
+    text-align: center; 
   }  
+   
   section {
-    padding: 10px; /* Reduce padding around the section */
-    text-align: center; /* Center-align h1 text */
-  }
+    padding: 10px;
+    text-align: center; 
+  } 
   
   .projects-grid {
     display: grid; /* Apply grid layout */
@@ -45,7 +46,7 @@
   }
   
   .project-image {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     transition: transform 0.3s ease; /* Smooth transition for hover effect */
     margin-bottom: 10px;
@@ -70,9 +71,9 @@
  
   
   .project-image {
-    max-width: 100%; /* Ensure image fits within card */
+    max-width: 80%; /* Ensure image fits within card */
     height: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px; /* Space between the image and the text */
+    margin-bottom: 0px; /* Space between the image and the text */
     background: none; /* Remove any background color */
     border: none; /* Remove any borders */
   }
