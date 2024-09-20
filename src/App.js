@@ -4,6 +4,7 @@ import HomePage from "./HomePage";
 import Projects from "./Project";
 import Design from "./Design";
 import "./styles.css"; // Add this if it's not there
+import WebDev from "./WebDev";
 
 function App() {
   useEffect(() => {
@@ -58,6 +59,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage><Projects /></HomePage>} />
           <Route path="/design" element={<Design />} />
+          <Route path="/WebDev" element={<WebDev/>} />
         </Routes>
       </div>
     </Router>
