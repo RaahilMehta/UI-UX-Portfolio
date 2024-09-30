@@ -13,6 +13,9 @@
   .carousel-animation {
     color: #F03943; 
   }
+  .compoundx{
+    color: #4BAA5C;
+  }
   section {
     text-align: center; 
   }  
@@ -21,7 +24,7 @@
     padding: 10px;
     text-align: center; 
   } 
-  
+
   .projects-grid {
     display: grid; /* Apply grid layout */
     grid-template-columns: repeat(2, 1fr); /* Create 2 columns */
@@ -50,6 +53,7 @@
     height: auto;
     transition: transform 0.3s ease; /* Smooth transition for hover effect */
     margin-bottom: 10px;
+    border-radius: 16px;
   }
   
   .project-card h2 {
