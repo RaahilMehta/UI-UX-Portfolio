@@ -13,19 +13,22 @@ body {
   /* Custom scrollbar for Chrome, Edge, and Safari */
 
 
-  body {
-    overflow: hidden;
-  }
-  
-  /* Alternatively, if you want to only hide the horizontal scrollbar */
-  body {
-    overflow-x: hidden;
-  }
-  
-  /* If you want to hide only the vertical scrollbar */
-  body {
-    overflow-y: hidden;
-  }
+/* Hide the scrollbar but still allow scrolling */
+body {
+  overflow: scroll; /* Ensure scrolling is still possible */
+}
+
+/* For webkit browsers (Chrome, Safari, newer Edge) */
+body::-webkit-scrollbar {
+  display: none;  /* Hide the scrollbar */
+}
+
+/* Optional: If you want to hide the scrollbar for both horizontal and vertical */
+body::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
 /* 
 body {
   cursor: url('/assets/cursor.png'), auto; 
