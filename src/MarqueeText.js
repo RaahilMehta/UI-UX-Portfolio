@@ -8,7 +8,10 @@ const CYCLES_PER_LETTER = 2;
 const SHUFFLE_TIME = 60;
 const CHARS = "!@#$%^&*():{};|,.<>/?";
 
-const skills = ["Actively looking for Opportunities! Contact me at raahilmehta77@gmail.com "];
+const skills = [
+  "Actively looking for Opportunities! Contact me at raahilmehta77@gmail.com ",
+  // Add more content here if necessary
+];
 
 const ScrambleText = ({ text, className }) => {
   const [scrambledText, setScrambledText] = useState(text);

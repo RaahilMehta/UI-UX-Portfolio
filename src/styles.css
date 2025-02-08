@@ -11,43 +11,21 @@ body {
     color: white; /* White text for contrast */
 }
   /* Custom scrollbar for Chrome, Edge, and Safari */
-::-webkit-scrollbar {
-  width: 12px; /* Adjust scrollbar width */
-}
 
-::-webkit-scrollbar-track {
-  background: black; /* Set background of the track (scrollbar container) */
-}
 
-::-webkit-scrollbar-thumb {
-  background-color: #DBA6F0; /* Set the scrollbar thumb color */
-  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
-  border: 3px solid black; /* Black border around the thumb */
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #A981FE; /* Change scrollbar thumb color on hover */
-}
-
-/* Custom scrollbar for Chrome, Edge, and Safari */
-::-webkit-scrollbar {
-  width: 12px; /* Adjust scrollbar width */
-}
-
-::-webkit-scrollbar-track {
-  background: black; /* Set background of the track (scrollbar container) */
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #DBA6F0; /* Set the scrollbar thumb color */
-  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
-  border: 3px solid black; /* Black border around the thumb */
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #A981FE; /* Change scrollbar thumb color on hover */
-}
-
+  body {
+    overflow: hidden;
+  }
+  
+  /* Alternatively, if you want to only hide the horizontal scrollbar */
+  body {
+    overflow-x: hidden;
+  }
+  
+  /* If you want to hide only the vertical scrollbar */
+  body {
+    overflow-y: hidden;
+  }
 /* 
 body {
   cursor: url('/assets/cursor.png'), auto; 
