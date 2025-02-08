@@ -7,7 +7,7 @@ const designs = [
     description: "CompoundX - A perpetual dex platform", 
     image: "/assets/compoundX.png",
     link: "https://www.figma.com/proto/tIgjM8JOEdKHfXVO4HW8J7/UI-Design-a-Dark-Mode-NFT-app-(Community)?page-id=60%3A543&node-id=249-4035&node-type=FRAME&viewport=45%2C130%2C0.51&t=NHlDmeQWYv5eHXh9-1&scaling=scale-down-width&content-scaling=fixed",
-    className: "nft-marketplace"
+    className: "compoundx"
   },
   { 
     title: "NFT Marketplace", 

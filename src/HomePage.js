@@ -8,10 +8,12 @@ function HomePage({ children }) {
     <>
       <Navbar />
       <div className="header-avatar-container">
-        <img src="/assets/Avatar.png" alt="Avatar" className="avatar-image" />
+        
+        <img src="/assets/12.png" alt="Avatar" className="avatar-image" />
         <Header />
+
       </div>
-      <img src="/assets/Frame824.png" alt="Description of image" className="header-image" />
+      {/* <img src="/assets/Frame824.png" alt="Description of image" className="header-image" /> */}
       {children}
       <Footer />
     </>
