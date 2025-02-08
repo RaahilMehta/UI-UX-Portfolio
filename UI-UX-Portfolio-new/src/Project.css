@@ -21,6 +21,7 @@
     padding-top: 120px; /* Space above the section */
 }
 
+
 .projects-grid {
   display: grid; /* Apply grid layout */
   grid-template-columns: repeat(2, 1fr); /* Create 2 columns */
@@ -80,7 +81,7 @@
   }
   
   section h1 {
-    font-family: 'Poppins', sans-serif; /* Ensure Poppins font */
+    font-family: 'IBM Plex Mono', monospace; /* Ensure Poppins font */
     font-size: 2.5rem; /* Adjust font size as needed */
     margin-bottom: 20px; /* Add space below the heading */
     background: linear-gradient(90deg, #DBA6F0 0%, #A981FE 100%);
@@ -91,7 +92,7 @@
     animation: fadeInUp 1s ease-out; /* Apply the fadeInUp animation */
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 780px) {
     
   
     /* Projects grid in 1 column on mobile */
